@@ -42,14 +42,15 @@ Clone or download the source files:
 
     server.sh - Server startup script
 
-chmod +x setup.sh
-./setup.sh
+Setup
 
-Usage
+    chmod +x setup.sh
+    ./setup.sh
+
 Starting the Server
 
-chmod +x server.sh
-./server.sh
+    chmod +x server.sh
+    ./server.sh
 
 Configure Tor hidden service:
 Edit the Tor configuration file (/etc/tor/torrc or your system's equivalent):
@@ -58,8 +59,9 @@ text
 HiddenServiceDir /var/lib/tor/chat_service/
 HiddenServicePort 1234 127.0.0.1:1234
 
-Restart Tor: 
-sudo systemctl restart tor
+Restart Tor:
+
+    sudo systemctl restart tor
 
 Get your onion address:
 sudo cat /var/lib/tor/chat_service/hostname
