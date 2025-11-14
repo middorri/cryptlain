@@ -1,7 +1,7 @@
 Tor Chat Program
 
 A simple chat program that works over Tor for anonymous communication. The server runs as a Tor hidden service, and clients connect through the Tor network.
-Features
+# Features
 
     Secure authentication with password protection
 
@@ -13,7 +13,7 @@ Features
 
     Color-coded messages for better readability
 
-Requirements
+# Requirements
 
     GCC compiler
 
@@ -21,17 +21,16 @@ Requirements
 
     Basic networking libraries (usually included in Linux)
 
-Installation
+On Ubuntu/Debian
 
-    Install Tor (if not already installed):
-    bash
+    sudo apt update
+    sudo apt install tor
 
-# On Ubuntu/Debian
-sudo apt update
-sudo apt install tor
+On CentOS/RHEL
 
-# On CentOS/RHEL
-sudo yum install tor
+    sudo yum install tor
+
+# Installation
 
 Clone or download the source files:
 
@@ -78,7 +77,7 @@ Using the Client
 
     Start chatting - type messages and press Enter to send
 
-Commands
+# Commands
 
 Server commands:
 
@@ -94,7 +93,7 @@ Client commands:
 
     /clear - Clear the screen
 
-Configuration
+# Configuration
 
     Change the default password in server.c (look for PASSWORD "secret123")
 
