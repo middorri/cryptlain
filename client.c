@@ -147,10 +147,10 @@ static int socks5_connect_domain(int proxy_fd, const char *domain, int port) {
 void print_banner() {
     printf("\n");
     printf(COLOR_CYAN "╔══════════════════════════════════════════════════════════╗\n");
-    printf("║" COLOR_MAGENTA "               SECURE TOR CHAT CLIENT                " COLOR_CYAN "║\n");
-    printf("║" COLOR_GREEN "                 Connection Established                  " COLOR_CYAN "║\n");
-    printf("║" COLOR_YELLOW "           All communications are encrypted             " COLOR_CYAN "║\n");
-    printf("║" COLOR_BLUE "      Commands: /quit (exit), /help (show commands)     " COLOR_CYAN "║\n");
+    printf("║" COLOR_MAGENTA "               SECURE TOR CHAT CLIENT                     " COLOR_CYAN "║\n");
+    printf("║" COLOR_GREEN "                 Connection Established                   " COLOR_CYAN "║\n");
+    printf("║" COLOR_YELLOW "           All communications are encrypted               " COLOR_CYAN "║\n");
+    printf("║" COLOR_BLUE "      Commands: /quit (exit), /help (show commands)       " COLOR_CYAN "║\n");
     printf("╚══════════════════════════════════════════════════════════╝\n" COLOR_RESET);
     printf("\n");
 }
