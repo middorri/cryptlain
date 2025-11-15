@@ -37,9 +37,9 @@ void print_timestamp() {
 void print_server_banner() {
     printf("\n");
     printf(COLOR_CYAN "╔══════════════════════════════════════════════════════════╗\n");
-    printf("║" COLOR_MAGENTA "               SECURE TOR CHAT SERVER                " COLOR_CYAN "║\n");
-    printf("║" COLOR_GREEN "                  Server is running                    " COLOR_CYAN "║\n");
-    printf("║" COLOR_YELLOW "           All communications are encrypted             " COLOR_CYAN "║\n");
+    printf("║" COLOR_MAGENTA "               SECURE TOR CHAT SERVER                     " COLOR_CYAN    "║\n");
+    printf("║" COLOR_GREEN "                  Server is running                       " COLOR_CYAN   "║\n");
+    printf("║" COLOR_YELLOW "           All communications are encrypted               " COLOR_CYAN   "║\n");
     printf("╚══════════════════════════════════════════════════════════╝\n" COLOR_RESET);
     printf("\n");
 }
