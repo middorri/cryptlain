@@ -1,6 +1,6 @@
 Chat Over Tor
   
-[![License](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/) [![x](https://img.shields.io/badge/x-@middorri-blue.svg)](https://x.com/middorri)  
+[![License](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/) [![x](https://img.shields.io/badge/x-@middorri-blue.svg)](https://x.com/k3pt_exe)  
   
 A simple chat program that works over Tor for anonymous communication. The server runs as a Tor hidden service, and clients connect through the Tor network.
 # Features
